@@ -1,0 +1,24 @@
+
+    <div class="">
+      <h1>john</h1>
+    <p>
+      zknnsdncdcpandcnndsndlvnadn
+      </p>
+    </div>
+    <div class="">
+      <h1>ramesh</h1>
+    <p>
+      zknnsdncdcpandcnndsndlvnadn
+      </p>
+    </div>
+  <% namess.forEach(function(bodyName){ %> >
+
+<section class="container">
+  <div class="">
+
+    <h1> <%= bodyName.firstName %></h1>
+    <p> <%= bodyName.About.substring(0,100) + "  ..."  %></p>
+
+
+  </div>
+</section>
